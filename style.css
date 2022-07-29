@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.quote__app{
+    position: relative;
+    top: 40%;
+    width: 300px;
+    height: 300px;
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn__quote{
+    width: 100%;
+    height: 130px;
+    text-align: center;    
+    border: 3px solid #000;
+    background: rgb(99, 26, 245);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
