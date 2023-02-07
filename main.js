@@ -18,9 +18,9 @@
 //      'quote': 'Do not take life too seriously. You will not get out alive.'
 //     },
 // ];
-// let btnOfQuotes = document.querySelector('.btn__quote'),
-//     quoteOfString = document.querySelector('.quote'),
-//     authorOfQuote = document.querySelector('.author__quote');
+let btnOfQuotes = document.querySelector('.btn__quote'),
+    quoteOfString = document.querySelector('.quote'),
+    authorOfQuote = document.querySelector('.author__quote');
 
 //     btnOfQuotes.addEventListener('click',()=>{
 //         let random = Math.floor(Math.random()*(arrayOfQuotes.length - 1 + 1) + 0)
