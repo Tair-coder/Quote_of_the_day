@@ -33,7 +33,7 @@ let btnOfQuotes = document.querySelector('.btn__quote'),
 
 
 
-    Api for fetch anime quote and author 
+//     Api for fetch anime quote and author 
 btnOfQuotes.addEventListener('click',()=> {
     fetch('https://animechan.vercel.app/api/random')
     .then(response =>response.json())
